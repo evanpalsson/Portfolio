@@ -5,10 +5,14 @@ var app = angular.module('portfolio', ['ngRoute']);
 	$routeProvider
 	  	.when('/', {
 	  		templateUrl: './main.html',
-	  		controller: 'homeCtrl'	
+	  		controller: 'mainCtrl'	
+	  	})
+	  	.when('/svg', {
+	  		templateUrl: './svg.html',
+	  		controller: 'svgCtrl'	
 	  	})
 	  	.when('/chart', {
-	  		templateUrl: './views/chart.html',
+	  		templateUrl: './chart.html',
 	  		controller: 'chartCtrl'	
 	  	})
 	  	.otherwise({

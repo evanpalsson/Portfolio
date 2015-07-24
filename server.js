@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
+var http = require('http').Server(app);
 var oandaAdapter = require('oanda-adapter');
 var fs = require('fs');
 var path = require('path');
 var request = require('request');
-var http = require('http').Server(app);
-// var io = require('socket.io')(http);
+var io = require('socket.io');
 
 //start api
 url = 'https://www.quandl.com/api/v1/datasets/SEC/AAPL_ASSETS_Q.json';
