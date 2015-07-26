@@ -103,3 +103,9 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+
+/*.nav-sidebar>li>a:active{
+  color: rgba(255, 255, 255, 1);
+  background-color:rgba(16, 127, 200, 1)
+}*/
