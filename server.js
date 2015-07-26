@@ -5,7 +5,6 @@ var oandaAdapter = require('oanda-adapter');
 var fs = require('fs');
 var path = require('path');
 var request = require('request');
-var io = require('socket.io');
 
 //start api
 url = 'https://www.quandl.com/api/v1/datasets/SEC/AAPL_ASSETS_Q.json';
