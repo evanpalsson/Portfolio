@@ -4,16 +4,16 @@ var app = angular.module('portfolio', ['ngRoute']);
 
 	$routeProvider
 	  	.when('/', {
-	  		templateUrl: './main.html',
-	  		controller: 'mainCtrl'	
+	  		templateUrl: './main.html'
+	  		// controller:	'mainCtrl'
 	  	})
 	  	.when('/svg', {
 	  		templateUrl: './svg.html',
 	  		controller: 'svgCtrl'	
 	  	})
 	  	.when('/chart', {
-	  		templateUrl: './chart.html',
-	  		controller: 'chartCtrl'	
+	  		templateUrl: './chart.html'
+	  		// controller: 'chartCtrl'	
 	  	})
 	  	.otherwise({
 	  		redirectTo: '/'

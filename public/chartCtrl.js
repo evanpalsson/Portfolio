@@ -1,4 +1,4 @@
-var app = angular.module('zions');
+var app = angular.module('portfolio');
 
 	app.controller('chartCtrl', function($scope){
 

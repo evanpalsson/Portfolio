@@ -1,6 +1,6 @@
 var app = angular.module('portfolio');
 
-	app.controller('homeCtrl', function($scope){
+	app.controller('svgCtrl', function($scope){
   	
 		
 
