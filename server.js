@@ -6,18 +6,19 @@ var fs = require('fs');
 var path = require('path');
 var request = require('request');
 
-//start api
-url = 'https://www.quandl.com/api/v1/datasets/SEC/AAPL_ASSETS_Q.json';
+//start quandl api
+// url = 'https://www.quandl.com/api/v1/datasets/SEC/AAPL_ASSETS_Q.json';
 
-request(url, function(error, response, body){
-	console.log(body);
-});
+// request(url, function(error, response, body){
+// 	console.log(body);
+// });
+//end quandl api
 
 //serve files
 app.use(express.static(__dirname + '/public'));
 
 app.listen(1337);
-console.log('1337 is working'); 
+console.log('server working'); 
 
 //oanda stream
 // io.on('connection', function(socket){
