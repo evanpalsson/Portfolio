@@ -15,12 +15,16 @@ var app = angular.module('portfolio', ['ngRoute']);
 		  		templateUrl: './chart.html'
 		  		// controller: 'chartCtrl'	
 		  	})
+		  	.when('/gifs', {
+		  		templateUrl: './gifs.html'
+		  		// controller: 'chartCtrl'	
+		  	})
 		  	.otherwise({
 		  		redirectTo: '/'
 		  	})
 	});
 
-	
+
 
 
   	
